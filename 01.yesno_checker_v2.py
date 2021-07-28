@@ -3,7 +3,7 @@ def yes_no(question):
     valid = False
     while not valid:
         answer = input(question).lower()
-        if answer != "yes" and answer != "y":
+        if answer == "yes" or answer == "y":
             print("start game")
             return answer
         elif answer == "no" or answer == "n":
