@@ -23,6 +23,6 @@ def instructions():
 # Main Routine
 show_instructions = yes_no("Have you played the Lucky Unicorn game before? ")
 if show_instructions == "yes":
-    print("Display instructions")
+    print("Display Instructions")
 else:
-    print("Program continues")
+    print("Program Continues")
