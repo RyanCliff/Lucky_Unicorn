@@ -24,5 +24,6 @@ def instructions():
 show_instructions = yes_no("Have you played the Lucky Unicorn game before? ")
 if show_instructions == "yes":
     instructions()
+    print()
 
 print("Program Continues")
