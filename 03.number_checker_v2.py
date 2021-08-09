@@ -1,3 +1,4 @@
+
 def num_check(question, low, high):
       error = "Please enter a whole number between 1 and 10"
       valid = False
@@ -7,11 +8,10 @@ def num_check(question, low, high):
 
             if low < response <= high:
                 return response
-
             else:
                 print(error)
-        except ValueError:
-            print(error)
+          except ValueError:
+              print(error)
 
 
 how_much = num_check("How much would you like to play with? ", 0, 10)
