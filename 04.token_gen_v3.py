@@ -9,7 +9,10 @@ for item in range(0,500):
 
     if chosen == "unicorn":
         balance += 4
+        print(balance)
     elif chosen == "horse" or chosen == "zebra":
         balance -= 0.5
+        print(balance)
     else:
         balance -= 1
+        print(balance)
