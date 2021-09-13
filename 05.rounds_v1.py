@@ -10,7 +10,6 @@ while play_again == "":
     balance -= 1
     print("balance: ", balance)
     print()
-    play_again = input("Press enter to play again or 'xxx' to quit.")
 
     if balance < 1:
         play_again = "xxx"
